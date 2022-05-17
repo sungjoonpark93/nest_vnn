@@ -1,8 +1,8 @@
-# NeST-VNN: A visible neural network model for drug response prediction
+# NeST-VNN: A visible neural network model for drug response prediction using a data-driven map of cancer protein assemblies
 NeST-VNN is an interpretable neural network-based model that predicts
-cell response to a drug. the first explainable data-driven method 
+cell response to a drug. The first explainable data-driven method 
 for cancer therapeutic response prediction, in which cell structure 
-is modeled using a hierarchical map of tumor cell systems.
+is modeled using a hierarchical map of tumor cell systems, called NeST (https://idekerlab.ucsd.edu/nest/).
 This framework integrates information across multiple levels of 
 cancer cell biology to understand drug response, and can serve 
 to identify and explain biomarkers for clinical application.
@@ -11,6 +11,8 @@ NeST-VNN characterizes each cell line using its genotype;
 the feature vector for each cell is a binary vector representing
 mutational status and copy number variations of the genes 
 used in clinical panels like Foundation Medicine (n=718).
+
+NeST-VNN source code has been derived from DrugCell (https://github.com/idekerlab/DrugCell).
 
 # Environment set up for training and testing
 NeST-VNN training/testing scripts require the following environmental setup:
